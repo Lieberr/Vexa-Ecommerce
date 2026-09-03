@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -73,3 +74,7 @@ export default defineConfig([
 ])
 
 ```
+=======
+# Vexa-Ecommerce
+Vexa-Ecommerce is a full-stack e-commerce application built with React, Node.js, TypeScript, and PostgreSQL, focused on providing a modern, scalable, and reliable online shopping experience.
+>>>>>>> 7a5f73c340a6664f94e2a387b5b87c7c865030eb
