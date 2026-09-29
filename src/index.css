@@ -1,26 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,300;1,9..144,400;1,9..144,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import 'tailwindcss';
 
-@theme {
-  --color-background: #FAFAF9;
-  --color-foreground: #111111;
-  --color-card: #FFFFFF;
-  --color-card-foreground: #111111;
-  --color-primary: #111111;
-  --color-primary-foreground: #FFFFFF;
-  --color-secondary: #F3F2EF;
-  --color-secondary-foreground: #111111;
-  --color-muted: #F3F2EF;
-  --color-muted-foreground: #6B6560;
-  --color-accent: #C9A87C;
-  --color-accent-foreground: #FFFFFF;
-  --color-border: #E5E3DE;
-  --color-ring: #C9A87C;
-  --color-surface: #F7F6F3;
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --font-display: 'Fraunces', Georgia, serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* ── Light mode (default) ──────────────────────────────────────── */
 :root {
